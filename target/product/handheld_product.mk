@@ -31,10 +31,5 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     frameworks-base-overlays
 
-ifeq ($(LEGION_BUILD),)
-PRODUCT_PACKAGES += \
-    LatinIME
-endif
-
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
