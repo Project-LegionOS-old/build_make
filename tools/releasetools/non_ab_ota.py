@@ -228,7 +228,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("            |___/                           ");
   script.Print("********************************************");
   script.Print("  	    By Dr. Raj Kale   	    	    ");
-  script.Print("             Android R                	    ");
+  script.Print("             Android S                	    ");
   script.Print("********************************************");
 
   legionversion = target_info.GetBuildProp("ro.legion.display.version")
